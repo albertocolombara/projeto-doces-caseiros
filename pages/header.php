@@ -8,13 +8,13 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><u>cocadinha</u></a>
+        <a href="?p=home"><u>cocadinha</u></a>
     </header>
     <nav>
         <ul>
-            <li><a href="../../20048654-5_AlbertoColombara/pages/page_home.php">Início</a></li>
-            <li><a href="../../20048654-5_AlbertoColombara/pages/page_quemsomos.php">Quem Somos</a></li>
-            <li><a href="../../20048654-5_AlbertoColombara/pages/page_produtos.php">Produtos</a></li>
-            <li><a href="../../20048654-5_AlbertoColombara/pages/page_contato.php">Contato</a></li>
+            <li><a href="?p=home">Início</a></li>
+            <li><a href="?p=quemsomos">Quem Somos</a></li>
+            <li><a href="?p=produtos">Produtos</a></li>
+            <li><a href="?p=contato">Contato</a></li>
         </ul>
     </nav>

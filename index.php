@@ -1,5 +1,6 @@
 <?php
+include('function/function.php');
 include('pages/header.php');
-include('pages/page_home.php');
+carregarPagina();
 include('pages/footer.php');
 ?>
