@@ -1,98 +1,29 @@
+<?php
+require_once('dados/dados.php');
+?>
+
 <section class="produtos">
         <div class="produtos_container">
             <h1>Nossos produtos</h1>
             <p>Feitos com carinho!</p>
             <div class="produtos_lista">
+            <?php for ($i=0; $i < 6; $i++): ?>
                 <div class="produtos_item">
                     <div class="imagem">
-                        <img src="images/p1.png" alt="Cocada Abacaxí">
+                        <img src="<?php echo $images[$i] ?>" alt="Cocada Abacaxí">
                     </div>
                     <div class="info">
                         <div class="info_left">
-                            <h2>Cocada Abacaxí</h2>
-                            <h3>R$ <span style="font-size: 40px;">7</span>,90</h3>
-                            <h5>Linha Frutas</h5>
+                            <h2>Cocada <?php echo $nome[$i] ?></h2>
+                            <h3>R$ <span style="font-size: 36px;"><?php echo $preco[$i]?></span></h3>
+                            <h5>Linha <?php echo $linha[$i] ?></h5>
                         </div>
                         <div class="info_btn">
-                            <a href="?p=abacaxi">Saiba mais</a>
+                            <a href="?p=<?php echo $codigolink[$i]?>">Saiba mais</a>
                         </div>
                     </div>
                 </div>
-                <div class="produtos_item">
-                    <div class="imagem">
-                        <img src="images/p2.png" alt="Cocada Chocolate">
-                    </div>
-                    <div class="info">
-                        <div class="info_left">
-                            <h2>Cocada Chocolate</h2>
-                            <h3>R$ <span style="font-size: 40px;">5</span>,90</h3>
-                            <h5>Linha Doces</h5>
-                        </div>
-                        <div class="info_btn">
-                            <a href="?p=chocolate">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="produtos_item">
-                    <div class="imagem">
-                        <img src="images/p3.png" alt="Cocada Maracujá">
-                    </div>
-                    <div class="info">
-                        <div class="info_left">
-                            <h2>Cocada Maracujá</h2>
-                            <h3>R$ <span style="font-size: 40px;">7</span>,90</h3>
-                            <h5>Linha Frutas</h5>
-                        </div>
-                        <div class="info_btn">
-                            <a href="?p=maracuja">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="produtos_item">
-                    <div class="imagem">
-                        <img src="images/p4.png" alt="Cocada Leite Condensado">
-                    </div>
-                    <div class="info">
-                        <div class="info_left">
-                            <h2>Cocada Leite Condensado</h2>
-                            <h3>R$ <span style="font-size: 40px;">5</span>,90</h3>
-                            <h5>Linha Doces</h5>
-                        </div>
-                        <div class="info_btn">
-                            <a href="?p=leitecond">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="produtos_item">
-                    <div class="imagem">
-                        <img src="images/p5.png" alt="Cocada Doce de Leite">
-                    </div>
-                    <div class="info">
-                        <div class="info_left">
-                            <h2>Cocada Doce de Leite</h2>
-                            <h3>R$ <span style="font-size: 40px;">6</span>,90</h3>
-                            <h5>Linha Doces</h5>
-                        </div>
-                        <div class="info_btn">
-                            <a href="?p=docedeleite">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="produtos_item">
-                    <div class="imagem">
-                        <img src="images/p6.png" alt="Cocada Goiaba">
-                    </div>
-                    <div class="info">
-                        <div class="info_left">
-                            <h2>Cocada Goiaba</h2>
-                            <h3>R$ <span style="font-size: 40px;">7</span>,90</h3>
-                            <h5>Linha Frutas</h5>
-                        </div>
-                        <div class="info_btn">
-                            <a href="?p=goiaba">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
+            <?php endfor; ?>
             </div>
         </div>
     </section>
