@@ -12,9 +12,9 @@
     </header>
     <nav>
         <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="quemsomos.html">Quem Somos</a></li>
-            <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="contato.html">Contato</a></li>
+            <li><a href="../../20048654-5_AlbertoColombara/pages/page_home.php">Início</a></li>
+            <li><a href="../../20048654-5_AlbertoColombara/pages/page_quemsomos.php">Quem Somos</a></li>
+            <li><a href="../../20048654-5_AlbertoColombara/pages/page_produtos.php">Produtos</a></li>
+            <li><a href="../../20048654-5_AlbertoColombara/pages/page_contato.php">Contato</a></li>
         </ul>
     </nav>
