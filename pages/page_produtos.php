@@ -14,7 +14,7 @@
                             <h5>Linha Frutas</h5>
                         </div>
                         <div class="info_btn">
-                            <a href="p1.html">Saiba mais</a>
+                            <a href="?p=abacaxi">Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
                             <h5>Linha Doces</h5>
                         </div>
                         <div class="info_btn">
-                            <a href="p2.html">Saiba mais</a>
+                            <a href="?p=chocolate">Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                             <h5>Linha Frutas</h5>
                         </div>
                         <div class="info_btn">
-                            <a href="p3.html">Saiba mais</a>
+                            <a href="?p=maracuja">Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                             <h5>Linha Doces</h5>
                         </div>
                         <div class="info_btn">
-                            <a href="p4.html">Saiba mais</a>
+                            <a href="?p=leitecond">Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                             <h5>Linha Doces</h5>
                         </div>
                         <div class="info_btn">
-                            <a href="p5.html">Saiba mais</a>
+                            <a href="?p=docedeleite">Saiba mais</a>
                         </div>
                     </div>
                 </div>
@@ -85,11 +85,11 @@
                     <div class="info">
                         <div class="info_left">
                             <h2>Cocada Goiaba</h2>
-                            <h3>R$ <span style="font-size: 40px;">6</span>,90</h3>
+                            <h3>R$ <span style="font-size: 40px;">7</span>,90</h3>
                             <h5>Linha Frutas</h5>
                         </div>
                         <div class="info_btn">
-                            <a href="p6.html">Saiba mais</a>
+                            <a href="?p=goiaba">Saiba mais</a>
                         </div>
                     </div>
                 </div>
