@@ -61,6 +61,11 @@ nav a {
     text-transform: uppercase;
     letter-spacing: .1rem;
     font-size: 15px;
+    transition: all .3s;
+}
+
+nav ul li a:hover {
+    color: #eee;
 }
 
 @media (max-width: 900px) {
@@ -566,11 +571,12 @@ iframe {
 
 .wrapper a {
     color:#281C09;
+    font-weight: bold;
     transition: all .5s;
 }
 
 .wrapper a:hover {
-    color:#7C7A77;
+    color:#eee;
 }
 
 @media (max-width: 500px) {

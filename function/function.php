@@ -43,6 +43,10 @@ function alterarTitulo (){
             $titulo = "Cocada de Maracujá - Cocadinhas";
             break;    
 
+        case 'leitecond':
+            $titulo = "Cocada de Leite Condensado - Cocadinhas";
+            break;   
+
         case 'docedeleite':
             $titulo = "Cocada de Doce de Leite - Cocadinhas";
             break; 
