@@ -13,7 +13,8 @@ $cocadas = [
     ],
     $images = ['images/p1.png', 'images/p2.png', 'images/p3.png', 'images/p4.png', 'images/p5.png', 'images/p6.png'],
     $linha = ['Frutas', 'Doces', 'Frutas', 'Doces', 'Doces', 'Frutas'],
-    $codigolink = ['abacaxi', 'chocolate', 'maracuja', 'leitecond', 'docedeleite', 'goiaba']
+    $codigolink = ['abacaxi', 'chocolate', 'maracuja', 'leitecond', 'docedeleite', 'goiaba'],
+    $peso = ['300']
 ]
 
 ?>
